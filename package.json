@@ -1,7 +1,7 @@
 {
-  "name": "confirm-ctrl",
+  "name": "flow-ctrl",
   "version": "0.0.1",
-  "description": "confirm logic controll",
+  "description": "flow logic controll",
   "main": "index.js",
   "scripts": {
     "build": "cross-env NODE_ENV=production webpack -c webpack.config.js",
@@ -13,7 +13,11 @@
     "url": "git+https://github.com/wanxiaodong404/confirm-ctrl.git"
   },
   "keywords": [
-    "confirm"
+    "flow",
+    "confirm",
+    "logic",
+    "message",
+    "control"
   ],
   "author": "wanxiaodong",
   "license": "ISC",

@@ -2,7 +2,7 @@
  * @Author: wanxiaodong
  * @Date: 2021-05-08 10:46:20
  * @Last Modified by: wanxiaodong
- * @Last Modified time: 2021-05-08 17:51:51
+ * @Last Modified time: 2021-05-08 18:04:45
  * @Description: 
  */
 
@@ -72,6 +72,8 @@ export default class Step {
             this.context.remove(this);
         }
         this.payload = null;
+        this.timer = null;
+        this.callback = null;
         this.timer = null;
     }
 
